@@ -10,11 +10,8 @@
 * {
     color: var(--fontColor);
     font-family: "Overpass", sans-serif;
-    background: url(desktop-design.jpg);
-    background-repeat: no-repeat;
-    background-size: 1440px;
+    background: var(--veryDarkBlue);
 }
-
 h1 {
     --fontColor: var(--white);
     font-weight: 700;
@@ -40,3 +37,6 @@ ul {
     --fontColor: var(--orange);
 }
 
+.attribution {
+    --fontColor: var(--white);
+}
